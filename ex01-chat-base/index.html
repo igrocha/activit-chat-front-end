@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex. 01 - chat html - sw front-end</title>
+    <!-- A TAG ABAIXO SERVE PARA LINKAR UM CSS EXTERNO A UM ARQUIVO .HTML -->
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div id="chat-screen">
+      <header>
+        <h2>Jamal's Lanche</h2>
+      </header>
+      <div class="messages-list">
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">boa noite o que você gostaria de pedir</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat"> um x completo</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">com molho caseiro extra</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">voce vem pegar o lanche aqui ou vai ser por entrega?</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">vou ai pegar o lanche</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">ok so me passa o seu nome ou nome de quem vem para deixar marcado
+
+          </div>
+        </div>
+      </div>
+      <form id="form-chat-send" action="index.html" method="post">
+        <input type="text" id="message" name="message" placeholder="Digite sua mensagem..." />
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+    <script>
+
+      
+    </script>
+  </body>
+</html>
