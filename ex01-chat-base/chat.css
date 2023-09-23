@@ -57,7 +57,7 @@ img {
  * com . (ponto). Por exemplo podemos limitar a largura de nosso chat...
  **/
 #chat-screen {
-  border: 1px solid green;
+  border: 3px solid green;
   max-width: 720px;
   margin: 12px auto; /* 12px em cima e embaixo; o `auto` faz com que na horizontal estejamos centralizados */
 }
@@ -71,8 +71,8 @@ body {
 
 header {
   background-color: green;
-  color: white;
-  padding: 16px;
+  color: whitesmoke;
+  padding: 18px;
 }
 
 .messages-list {
